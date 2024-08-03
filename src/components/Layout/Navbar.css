@@ -1,0 +1,68 @@
+
+.navbar {
+    background-color: #f38e6d; 
+    border-bottom: 2px solid #cc0000; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    color: #cc0000; 
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #660000; 
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ff6600; 
+  }
+  
+  .navbar-toggler {
+    border-color: #cc0000; 
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #cc0000;
+  }
+  
+  .btn-link {
+    color: #cc0000; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .btn-link:hover {
+    color: #ff6600;
+  }
+ 
+  .card {
+    border: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+  }
+  
+  .card-header, .card-footer {
+    background-color: #ffcc00; 
+    color: #cc0000;
+  }
+  
+  .card-title {
+    color: #660000; 
+  }
+  
+  .card-text {
+    color: #333; 
+  }
+  
+  .card-link {
+    color: #cc0000; 
+  }
+  
+  .card-link:hover {
+    color: #ff6600; 
+  }
+  

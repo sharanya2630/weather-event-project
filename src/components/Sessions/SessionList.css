@@ -1,0 +1,62 @@
+
+
+.session-list-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-center {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .session-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .session-item {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .session-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .session-detail {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .session-detail strong {
+    color: #333;
+  }
+  
+  @media (max-width: 576px) {
+    .session-list-container {
+      padding: 15px;
+    }
+  
+    .text-center {
+      font-size: 1.5rem;
+    }
+  
+    .session-detail {
+      font-size: 0.9rem;
+    }
+  }
+  
